@@ -7,7 +7,7 @@ const usuariosGet = (req = request, res = response) => {
     const {  q, apikey, nombre } = req.query;
 
     res.json({
-        'mensaje' : 'metodo GET ejecutadod',
+        'mensaje' : 'metodo GET ejecutado',
         q,
         apikey,
         nombre
